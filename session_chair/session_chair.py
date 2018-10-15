@@ -43,5 +43,5 @@ def blink_go_crazy():
         blue = random.randint(0,255)
         led_number = random.randint(0,2)
         b1.fade_to_rgb(1, red, green, blue, led_number)
-        time.sleep(0.01)
+        time.sleep(0.5)
     return
